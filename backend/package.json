@@ -1,0 +1,20 @@
+{
+  "name": "spectrust-ai-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "db:init": "node db/init.js",
+    "db:seed": "node db/seed.js",
+    "test": "node test/normalizer.test.js",
+    "test:conflict": "node test/conflictDetector.test.js",
+    "test:arbitrator": "node test/arbitrator.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

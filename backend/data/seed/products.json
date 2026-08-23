@@ -1,0 +1,560 @@
+[
+  {
+    "product_id": "ST-001",
+    "product_name": "SV-220B Direct-Acting 2/2-Way Solenoid Valve",
+    "category": "safety_critical_conflict",
+    "sources": [
+      {
+        "source_id": "ST-001-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "SV-220B Manufacturer Datasheet Rev B",
+        "authority_tier": 1,
+        "retrieved_at": "2025-03-10",
+        "raw_text": "The SV-220B is a direct-acting 2/2-way solenoid valve designed for pneumatic and light hydraulic control applications. The valve operates on a 24V DC coil with ±10% voltage tolerance and a holding current of 0.42A. Maximum operating pressure differential is rated at 10 bar (145 psi), with a brass body and NBR seals suitable for compressed air, inert gases, and water. Connection is via 1/4\" G-thread (BSPP) ports, with an orifice diameter of 3.0mm and Kv flow coefficient of 0.9. Response time for both energizing and de-energizing is typically 25ms. Ingress protection is rated IP65 when fitted with the standard DIN 43650 connector. Operating ambient temperature range is -10°C to +60°C."
+      },
+      {
+        "source_id": "ST-001-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "Industrial Supply Co. PIM Listing",
+        "authority_tier": 2,
+        "retrieved_at": "2020-06-15",
+        "raw_text": "SV-220B Solenoid Valve — 2/2-way, normally closed, direct acting. Coil voltage: 24VDC. Body material: brass; seal material: NBR. Port connection: G1/4 (BSPP female). Max pressure rating: 10 bar. Orifice size: 3mm. Ingress protection: IP65. Ambient temperature: -10°C to 60°C. Response time: approx. 25ms open/close. Connector type: DIN 43650 Form A. Suitable for air, water, and neutral gas media. Duty cycle: continuous (100% ED). Popular for pneumatic control panels and packaging machinery. In stock, ships from EU warehouse. Compatible with standard DIN coil connectors and manual override options available on request."
+      },
+      {
+        "source_id": "ST-001-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Legacy Product Catalog Page (Archived)",
+        "authority_tier": 3,
+        "retrieved_at": "2023-02-08",
+        "raw_text": "Solenoid Valve SV-220B — reliable 2-way control valve for industrial automation. Operates on 220V AC coil for standard mains-powered installations, drawing approximately 0.05A. Brass construction with NBR seal for durability in air and water lines. Thread connection 1/4 inch BSPP. Maximum working pressure 10 bar. Compact design with IP65-rated coil housing. Suitable for packaging, bottling, and general pneumatic circuits. Fast switching response around 25 milliseconds. Operating temperature -10°C to +60°C. This valve has been a popular choice among OEM integrators for over a decade thanks to its rugged brass body and simple DIN connector interface."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-002",
+    "product_name": "PS-450 Piezoresistive Pressure Transmitter",
+    "category": "safety_critical_conflict",
+    "sources": [
+      {
+        "source_id": "ST-002-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "PS-450 Manufacturer Datasheet Rev D",
+        "authority_tier": 1,
+        "retrieved_at": "2025-01-20",
+        "raw_text": "Model PS-450 is a piezoresistive pressure transmitter for hydraulic and pneumatic monitoring. Measuring range is 0–16 bar with a burst pressure of 48 bar and overpressure withstand of 32 bar. Output signal is 4–20mA (2-wire), accuracy ±0.5% FS BSL. Supply voltage 9–30VDC. Process connection is G1/2 male thread, wetted parts in stainless steel 316L. Housing rated IP67, electrical connection via M12x1 4-pin connector. Operating temperature range -25°C to +85°C (media), -20°C to +80°C (ambient). Long-term stability better than 0.2% FS/year. CE and RoHS compliant. Recommended for hydraulic power units, compressors, and process skids requiring stable, drift-free readings."
+      },
+      {
+        "source_id": "ST-002-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "HydroParts Distribution PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2019-11-04",
+        "raw_text": "Pressure Sensor PS-450, piezoresistive, 4-20mA output. Measuring range: 0-10 bar. Accuracy: ±0.5% full scale. Supply: 9-30VDC. Connection thread: G1/2 male. Housing: stainless steel, IP67. Electrical connector: M12, 4-pin. Ambient temperature: -20°C to 80°C. Media compatible with hydraulic oil, water, air. Overpressure protection included. Popular OEM sensor for mobile hydraulics and industrial machine builders. Lead time 2-3 weeks. Also available with 0-10V output on request. Widely specified in packaging and material handling equipment for reliable pressure feedback in closed-loop systems."
+      },
+      {
+        "source_id": "ST-002-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Sensor Catalog Page",
+        "authority_tier": 3,
+        "retrieved_at": "2022-09-12",
+        "raw_text": "PS-450 pressure sensor — rugged stainless steel transmitter for demanding industrial environments. Range 0-16 bar, output 4-20mA current loop. Accuracy rated at ±0.5% of full scale. Operates from 9 to 30V DC supply. Process connection G1/2 male BSPP, IP67 sealed housing with M12 4-pin plug. Temperature range -25°C to +85°C. Ideal for hydraulic circuits, compressors, and pump monitoring. This sensor has been a staple in our catalog for mobile and stationary hydraulics applications, offering long-term drift stability and robust overpressure tolerance well beyond its rated range."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-003",
+    "product_name": "RY-8P Plug-In Industrial Relay",
+    "category": "safety_critical_conflict",
+    "sources": [
+      {
+        "source_id": "ST-003-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "RY-8P Manufacturer Datasheet Rev A",
+        "authority_tier": 1,
+        "retrieved_at": "2024-11-05",
+        "raw_text": "The RY-8P is a general-purpose plug-in relay for industrial control panels. Contact configuration is SPDT (1 changeover), rated 16A at 250VAC / 16A at 30VDC resistive load. Coil voltage is 24VDC, coil power consumption 0.9W. Dielectric strength between coil and contacts is 4000VAC. Mechanical life exceeds 10 million operations; electrical life rated at 100,000 operations at full load. Mounting is via 8-pin octal socket on 35mm DIN rail. Operating temperature range -40°C to +55°C. Housing material is polyamide (UL94 V-0), transparent for visual contact indication. Certified to UL508 and CE LVD. Recommended for motor control circuits, HVAC, and machine safety interlocks."
+      },
+      {
+        "source_id": "ST-003-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "ControlParts Direct PIM Listing",
+        "authority_tier": 2,
+        "retrieved_at": "2021-03-18",
+        "raw_text": "Relay RY-8P, plug-in, DIN rail mount. Contact type: SPDT. Rated current: 10A at 250VAC. Coil voltage: 24VDC. Socket: 8-pin octal, 35mm rail. Dielectric strength: 4000VAC coil-contact. Operating temperature: -40°C to 55°C. Housing: polyamide, UL94 V-0. Mechanical life: 10 million cycles. Suitable for control circuits, HVAC systems, and general automation panels. In stock, standard lead time 1 week. Commonly paired with our RS-8 relay socket range. Certifications: UL, CE. Popular replacement part for legacy control panel upgrades and retrofits."
+      },
+      {
+        "source_id": "ST-003-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Panel Components Listing",
+        "authority_tier": 3,
+        "retrieved_at": "2023-07-22",
+        "raw_text": "RY-8P industrial plug-in relay — SPDT contact configuration rated 16A @ 250VAC, ideal for switching motors, contactors, and lighting loads in control panels. 24VDC coil, mounts on standard 8-pin octal socket with 35mm DIN rail. Dielectric withstand 4000VAC. Transparent dust cover allows visual verification of contact state. Operating range -40°C to +55°C. Mechanical durability rated at 10 million operations. UL and CE listed. A long-standing favorite among panel builders for HVAC, pumping stations, and machine control retrofits requiring a dependable, field-proven relay."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-004",
+    "product_name": "IP-M12N Inductive Proximity Sensor",
+    "category": "safety_critical_conflict",
+    "sources": [
+      {
+        "source_id": "ST-004-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "IP-M12N Manufacturer Datasheet Rev C",
+        "authority_tier": 1,
+        "retrieved_at": "2025-05-14",
+        "raw_text": "The IP-M12N inductive proximity sensor detects ferrous and non-ferrous metals at a nominal sensing distance of 4mm. Supply voltage range is 10-30VDC, output configuration PNP, normally open, 3-wire. Housing is M12x1 threaded, nickel-plated brass, with a shielded (embeddable) sensing face. Switching frequency is 800Hz. Ingress protection rated IP67. Electrical connection via M12x1 4-pin male connector, A-coded. Operating temperature range is -25°C to +70°C, rated for continuous outdoor and washdown environments. Repeat accuracy ±2% of sensing distance. Short-circuit and reverse-polarity protected. Certified CE, cULus. Suitable for conveyor systems, packaging lines, and position detection in harsh factory environments."
+      },
+      {
+        "source_id": "ST-004-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "AutomationParts PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2020-08-09",
+        "raw_text": "Inductive Sensor IP-M12N. Sensing distance: 4mm (ferrous). Supply: 10-30VDC. Output: PNP, NO, 3-wire. Housing: M12x1 nickel-plated brass, shielded. Connector: M12 4-pin. IP rating: IP67. Switching frequency: 800Hz. Ambient temperature: -25°C to 70°C. Short circuit protected. Widely used in conveyor and packaging automation. Ships within 5 business days. Compatible with standard M12 cordsets. Frequently specified alongside our PLC I/O modules for position and object detection applications in manufacturing lines."
+      },
+      {
+        "source_id": "ST-004-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Sensor Vendor Page",
+        "authority_tier": 3,
+        "retrieved_at": "2022-04-30",
+        "raw_text": "IP-M12N proximity sensor — compact inductive sensor for metal object detection at up to 4mm range. 10-30VDC supply, PNP normally-open output. Rugged nickel-plated M12 threaded housing rated IP67 for wet and dusty environments. M12 4-pin quick-disconnect. Recommended operating temperature 0°C to +60°C for standard industrial use. Switching frequency 800Hz allows detection of fast-moving targets. A reliable, cost-effective sensor widely used in older-generation conveyor and sorting equipment. Note: this listing reflects an earlier product revision still common in field installations across packaging plants."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-005",
+    "product_name": "EM-100X Three-Phase Induction Motor",
+    "category": "safety_critical_conflict",
+    "sources": [
+      {
+        "source_id": "ST-005-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "EM-100X Manufacturer Datasheet Rev E",
+        "authority_tier": 1,
+        "retrieved_at": "2025-09-02",
+        "raw_text": "The EM-100X is a three-phase squirrel-cage induction motor rated 1.5kW at 400V/50Hz, IE3 efficiency class. Full load current is 3.4A, rated speed 1440 rpm. Insulation class F, temperature rise class B. Enclosure rating IP55, frame size 90L, foot-mounted (B3). The motor is certified ATEX II 2G Ex db IIB T4 Gb for use in Zone 1 gas hazardous areas, and additionally carries IECEx certification. Cooling method is IC411 (self-ventilated). Bearings are grease-lubricated deep groove ball type, rated for 20,000 hours L10 life. Terminal box entry is via M25 cable gland. Certified to IEC 60079-1 and IEC 60034 standards for explosion-protected rotating electrical machinery."
+      },
+      {
+        "source_id": "ST-005-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "MotorSupply Group PIM Listing",
+        "authority_tier": 2,
+        "retrieved_at": "2019-05-27",
+        "raw_text": "Motor EM-100X, three-phase induction, 1.5kW, 400V, 50Hz. Efficiency class IE3. Full load current 3.4A. Speed 1440 rpm. IP55 enclosure, frame 90L, B3 mounting. Insulation class F. Standard industrial duty motor for pumps, fans, and conveyor drives. Cable entry M25. Bearings: grease-lubricated ball type. General purpose rating — CE marked. Note: This model is NOT certified for hazardous-area applications / ATEX and should not be used in Zone 1. Suitable for indoor and sheltered outdoor installation in standard non-hazardous environments. Frequently bundled with VFD packages for variable-speed applications in general manufacturing."
+      },
+      {
+        "source_id": "ST-005-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Motor Vendor Catalog",
+        "authority_tier": 3,
+        "retrieved_at": "2023-11-19",
+        "raw_text": "EM-100X ATEX-certified motor — 1.5kW three-phase induction motor built for hazardous area applications. Rated 400V, 50Hz, IE3 efficient, IP55 enclosure. Certified ATEX II 2G Ex db IIB T4 Gb for Zone 1 gas atmospheres, with matching IECEx certification for global export. Frame size 90L, foot mount B3. Insulation class F, 20,000-hour bearing life. Popular choice for oil & gas, chemical processing, and paint booth applications requiring explosion-protected drive motors. Cable entry via M25 gland. Manufactured to IEC 60079 and IEC 60034 explosion-protection standards."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-006",
+    "product_name": "HF-14M Brass Hydraulic Male Fitting",
+    "category": "compatibility_risk_conflict",
+    "sources": [
+      {
+        "source_id": "ST-006-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "HF-14M Manufacturer Datasheet Rev A",
+        "authority_tier": 1,
+        "retrieved_at": "2025-02-11",
+        "raw_text": "The HF-14M is a straight male hydraulic fitting for high-pressure fluid power connections. Thread specification is G1/4 BSPP (British Standard Pipe Parallel) with a bonded seal washer for leak-free sealing. Body material is CW614N brass, nickel-plated for corrosion resistance. Maximum working pressure is 350 bar, burst pressure 1400 bar. Operating temperature range is -20°C to +100°C, compatible with mineral oils, water-glycol, and compressed air. Hex size across flats is 17mm. The fitting meets ISO 1179 sealing standard for BSPP connections and is suitable for hydraulic power units, mobile equipment, and pneumatic circuits requiring a reliable parallel-thread seal."
+      },
+      {
+        "source_id": "ST-006-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "FluidPower Distributors PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2020-10-03",
+        "raw_text": "Hydraulic Fitting HF-14M. Thread: 1/4-18 NPT (tapered). Material: brass, nickel-plated. Max working pressure: 350 bar. Temperature range: -20°C to 100°C. Hex size: 17mm across flats. Suitable for hydraulic oil, water-glycol, compressed air lines. Sealing via thread tape or sealant (tapered thread). Commonly stocked for North American hydraulic assembly work. Compatible with standard NPT fittings and adapters. Bulk pricing available. Frequently ordered alongside our hose assembly kits for mobile hydraulic repair applications."
+      },
+      {
+        "source_id": "ST-006-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Fittings Catalog Page",
+        "authority_tier": 3,
+        "retrieved_at": "2023-01-25",
+        "raw_text": "HF-14M brass hydraulic fitting — straight male connector with G1/4 BSPP parallel thread and bonded seal washer for a reliable metal-to-metal seal without thread sealant. Nickel-plated brass body rated to 350 bar working pressure. Hex 17mm. Operating temperature -20°C to +100°C. Compatible with hydraulic oil, water-glycol fluids, and air systems. A standard fitting used across European hydraulic power unit assembly and fluid power maintenance. Conforms to ISO 1179 sealing geometry. Reliable choice for retrofitting older hydraulic circuits with BSPP ports."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-007",
+    "product_name": "CN-512A Circular Field-Wireable Connector",
+    "category": "compatibility_risk_conflict",
+    "sources": [
+      {
+        "source_id": "ST-007-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "CN-512A Manufacturer Datasheet Rev B",
+        "authority_tier": 1,
+        "retrieved_at": "2024-08-19",
+        "raw_text": "The CN-512A is a circular field-wireable connector for sensor and actuator cabling. Configuration is M12x1, 5-pin, A-coded, male, straight body. Rated voltage is 250V, rated current 4A per contact. Contact material is gold-plated brass for low-resistance, corrosion-resistant connections. Housing material is nickel-plated brass with a PBT insulator. Ingress protection when mated is IP67 (IP69K optional). Cable clamp accommodates 4-8mm cable diameter. Operating temperature range -25°C to +90°C. Mechanical life rated at 100 mating cycles minimum. Compliant with IEC 61076-2-101 for M12 circular connectors. Recommended for PLC I/O wiring, proximity sensors, and field-bus device connections in automation systems."
+      },
+      {
+        "source_id": "ST-007-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "SensorConnect PIM Listing",
+        "authority_tier": 2,
+        "retrieved_at": "2021-06-07",
+        "raw_text": "Connector CN-512A. Type: M8, 4-pin, male, straight. Rated voltage: 250V. Rated current: 4A. Housing: nickel-plated brass. Cable clamp range: 3-6mm. IP67 rated when mated. Temperature range: -25°C to 90°C. Gold-plated contacts. Common accessory for compact sensor wiring where space is limited. In stock, ships same day. Frequently ordered with our M8 sensor cordset line for machine tool and robotics applications requiring a smaller connector footprint."
+      },
+      {
+        "source_id": "ST-007-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Connector Catalog Page",
+        "authority_tier": 3,
+        "retrieved_at": "2022-12-14",
+        "raw_text": "CN-512A circular connector — M12, 5-pin, A-coded field-wireable connector for industrial sensor and I/O cabling. Gold-plated contacts rated 4A at 250V. Nickel-plated brass shell with PBT insert, IP67 sealed when mated. Cable clamp fits 4-8mm cable OD. Operating temperature -25°C to +90°C. Meets IEC 61076-2-101. A go-to connector for PLC input/output wiring, proximity sensors, and distributed I/O modules across factory automation installations. Compatible with standard M12 mating connectors from major sensor manufacturers."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-008",
+    "product_name": "JB-1612 Polycarbonate Junction Box",
+    "category": "compatibility_risk_conflict",
+    "sources": [
+      {
+        "source_id": "ST-008-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "JB-1612 Manufacturer Datasheet Rev C",
+        "authority_tier": 1,
+        "retrieved_at": "2025-04-03",
+        "raw_text": "The JB-1612 is a polycarbonate junction box for outdoor and washdown electrical enclosures. External dimensions are 160mm x 120mm x 90mm (W x H x D). Mounting holes are positioned at 120mm x 80mm centers, sized for M5 fasteners. Ingress protection rating is IP66, with UV-stabilized polycarbonate construction rated for outdoor use. Operating temperature range -25°C to +80°C. The enclosure accepts up to 6 cable entries via knockouts sized for M20 and M25 glands. Impact resistance rated IK08. Supplied with a clear, hinged lid and stainless steel captive screws. Suitable for field junction wiring, sensor terminations, and control panel expansion enclosures."
+      },
+      {
+        "source_id": "ST-008-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "EnclosurePro PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2019-09-16",
+        "raw_text": "Junction Box JB-1612. Dimensions: 160 x 120 x 90mm. Mounting hole spacing: 100mm x 75mm. Material: polycarbonate, IP66. Temperature range: -25°C to 80°C. Cable entries: knockouts for M20/M25 glands. Impact rating: IK08. Clear hinged lid, stainless fasteners. Suitable for outdoor and washdown applications. Popular for field wiring junctions in food & beverage and water treatment industries. Ships flat-packed with mounting hardware. Compatible with standard DIN rail insert kits sold separately."
+      },
+      {
+        "source_id": "ST-008-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Enclosure Vendor Page",
+        "authority_tier": 3,
+        "retrieved_at": "2023-03-28",
+        "raw_text": "JB-1612 polycarbonate junction box — rugged outdoor enclosure measuring 160 x 120 x 90mm with clear hinged lid for quick visual inspection. Mounting centers at 120mm x 80mm, accepts M5 screws. IP66 rated, UV-stabilized housing suitable for direct sunlight exposure. Impact resistance IK08. Operating range -25°C to +80°C. Multiple knockouts for M20/M25 cable glands. A widely used enclosure in water treatment, food processing, and outdoor sensor junction applications, valued for its chemical resistance and tool-free lid access."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-009",
+    "product_name": "BR-6204ZZ Deep Groove Ball Bearing",
+    "category": "compatibility_risk_conflict",
+    "sources": [
+      {
+        "source_id": "ST-009-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "BR-6204ZZ Manufacturer Datasheet Rev A",
+        "authority_tier": 1,
+        "retrieved_at": "2024-12-22",
+        "raw_text": "The BR-6204ZZ is a single-row deep groove ball bearing with double metal shields (ZZ). Bore diameter is 20mm, outer diameter 47mm, width 14mm. Material is chrome steel (SAE 52100) for races and balls, with a pressed steel cage. Dynamic load rating (C) is 12.7kN, static load rating (C0) is 6.55kN. Limiting speed with grease lubrication is 16,000 rpm. Radial internal clearance is C3 (standard for electric motor applications). Operating temperature range -30°C to +120°C standard grease. Manufactured to ISO 15:2017 boundary dimension standard. Widely used in electric motors, pumps, gearboxes, and general machinery requiring reliable radial load support."
+      },
+      {
+        "source_id": "ST-009-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "BearingHouse PIM Listing",
+        "authority_tier": 2,
+        "retrieved_at": "2020-02-11",
+        "raw_text": "Bearing BR-6204ZZ. Bore: 17mm. Outer diameter: 40mm. Width: 12mm. Type: deep groove ball, double shielded (ZZ). Material: chrome steel. Dynamic load rating: 9.6kN. Limiting speed: 19,000 rpm grease lubricated. Radial clearance: C3. Temperature range: -30°C to 120°C. Standard replacement bearing for electric motors, pumps, and conveyor rollers. In stock, bulk packaging available. Frequently ordered as a matched pair for motor drive-end/non-drive-end applications."
+      },
+      {
+        "source_id": "ST-009-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Bearing Vendor Page",
+        "authority_tier": 3,
+        "retrieved_at": "2022-06-30",
+        "raw_text": "BR-6204ZZ ball bearing — deep groove design with double-shield (ZZ) protection against contamination. Bore 20mm, OD 47mm, width 14mm. Chrome steel construction rated for dynamic load of 12.7kN. Limiting speed 16,000 rpm with grease lubrication. C3 radial clearance suitable for motor applications with interference fits. Operating temperature -30°C to +120°C. A standard-dimension bearing per ISO 15 boundary sizing, widely stocked for motor rebuilds, pump repairs, and general industrial rotating equipment maintenance."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-010",
+    "product_name": "LS-303R Roller Lever Limit Switch",
+    "category": "compatibility_risk_conflict",
+    "sources": [
+      {
+        "source_id": "ST-010-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "LS-303R Manufacturer Datasheet Rev D",
+        "authority_tier": 1,
+        "retrieved_at": "2025-06-17",
+        "raw_text": "The LS-303R is a heavy-duty roller lever limit switch for position sensing in industrial machinery. Actuator mounting thread is M20x1.5 for cable gland compatibility, with a die-cast aluminum housing rated IP65. Contact configuration is 1NO+1NC, snap-action, rated 10A at 250VAC. Operating force is 15N, release force 3N minimum. Mechanical life rated at 10 million operations. Operating temperature range -25°C to +80°C. The roller lever arm is adjustable, constructed from stainless steel with a nylon roller. Terminal connection is via screw terminals under a gasketed cover. Certified to IEC 60947-5-1 for industrial control switching devices, suitable for conveyor end-of-travel and door interlock applications."
+      },
+      {
+        "source_id": "ST-010-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "SwitchGear Direct PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2021-01-29",
+        "raw_text": "Limit Switch LS-303R. Actuator: roller lever, adjustable arm. Mounting thread: 1/2 inch NPT. Housing: die-cast aluminum, IP65. Contacts: 1NO+1NC, 10A @ 250VAC. Operating force: 15N. Mechanical life: 10 million cycles. Temperature range: -25°C to 80°C. Popular for conveyor end-stop detection and safety interlocking. Screw terminal connections under gasketed cover. In stock, standard part for machine guarding retrofits. Compatible with standard 1/2 NPT conduit fittings for North American installations."
+      },
+      {
+        "source_id": "ST-010-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Switchgear Catalog Page",
+        "authority_tier": 3,
+        "retrieved_at": "2022-10-05",
+        "raw_text": "LS-303R roller lever limit switch — rugged die-cast aluminum housing rated IP65 for harsh factory environments. M20x1.5 cable entry thread, snap-action 1NO+1NC contacts rated 10A at 250VAC. Adjustable stainless steel roller lever arm. Operating force 15N. Mechanical durability 10 million operations. Temperature range -25°C to +80°C. Certified IEC 60947-5-1. Widely used for conveyor position sensing, door interlocks, and end-of-travel detection across packaging and material handling equipment."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-011",
+    "product_name": "PT-820 Pressure Transmitter",
+    "category": "unit_semantic_equivalent",
+    "sources": [
+      {
+        "source_id": "ST-011-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "PT-820 Manufacturer Datasheet Rev B",
+        "authority_tier": 1,
+        "retrieved_at": "2025-07-08",
+        "raw_text": "The PT-820 pressure transmitter provides accurate measurement for hydraulic and process applications. Measuring range is 0-10 bar with an output signal of 4-20mA, 2-wire loop powered. Supply voltage range is 10-30VDC. Accuracy is ±0.25% of full scale, BSL. Process connection is G1/2 male thread, wetted parts stainless steel 316L. Electrical connection via M12x1 4-pin connector, housing rated IP67. Operating temperature range -25°C to +85°C (media). Response time is 4ms (10-90%). Long-term stability better than 0.2% FS/year. CE marked and RoHS compliant. Recommended for hydraulic test stands, compressor monitoring, and process pressure feedback loops."
+      },
+      {
+        "source_id": "ST-011-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "ProcessInstruments PIM Listing",
+        "authority_tier": 2,
+        "retrieved_at": "2020-04-12",
+        "raw_text": "Pressure Transmitter PT-820. Measuring range: 0-1 MPa. Output: 4-20mA. Accuracy: ±0.25% FS. Supply: 10-30VDC. Connection: G1/2 male, 316L SS wetted parts. Housing: IP67, M12 4-pin connector. Temperature: -25°C to 85°C. Response time: 4ms. Standard sensor for hydraulic and process pressure feedback. In stock, ships within 3 days. Frequently specified for hydraulic power units and test bench applications requiring high accuracy at moderate pressure ranges."
+      },
+      {
+        "source_id": "ST-011-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Instrumentation Catalog Page",
+        "authority_tier": 3,
+        "retrieved_at": "2023-05-21",
+        "raw_text": "PT-820 pressure transmitter — precision 316L stainless steel sensor for hydraulic and process applications. Measuring range 0-1000 kPa, 4-20mA current loop output. Accuracy ±0.25% full scale. Supply voltage 10-30VDC. G1/2 male process connection, IP67 housing with M12 4-pin plug. Operating temperature -25°C to +85°C. Fast 4ms response time suitable for dynamic pressure monitoring. A trusted choice for hydraulic test stands and compressor skids requiring stable, repeatable readings over long service life."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-012",
+    "product_name": "CL-24S Solenoid Coil Assembly",
+    "category": "unit_semantic_equivalent",
+    "sources": [
+      {
+        "source_id": "ST-012-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "CL-24S Manufacturer Datasheet Rev A",
+        "authority_tier": 1,
+        "retrieved_at": "2024-10-30",
+        "raw_text": "The CL-24S is a replacement solenoid coil assembly for direct-acting and pilot-operated valves. Rated coil voltage is 24VDC, power consumption 4.5W at nominal voltage. Insulation class H, duty rating 100% ED (continuous). Dielectric withstand voltage between coil and housing is tested at 500V for 1 minute per IEC 60335. Housing material is thermoplastic (PA66), IP65 rated when fitted with DIN 43650 connector. Lead wire length 300mm, operating temperature range -10°C to +130°C (coil surface). Compatible with standard DIN Form A valve bodies. Certified CE and cULus for use in industrial pneumatic and hydraulic control circuits."
+      },
+      {
+        "source_id": "ST-012-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "ValveParts Warehouse PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2019-12-03",
+        "raw_text": "Solenoid Coil CL-24S. Voltage: 24VDC. Power: 4.5W. Insulation class: H. Dielectric test voltage: 0.5kV, 1 minute. Housing: PA66 thermoplastic, IP65. Connector: DIN 43650 Form A. Duty: 100% ED continuous. Temperature: -10°C to 130°C coil surface. Standard replacement coil for direct-acting solenoid valves. In stock, ships same day. Commonly ordered alongside DIN connector cable sets for valve maintenance and retrofit projects."
+      },
+      {
+        "source_id": "ST-012-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Valve Components Page",
+        "authority_tier": 3,
+        "retrieved_at": "2022-08-17",
+        "raw_text": "CL-24S solenoid coil — 24VDC replacement coil rated for continuous duty (100% ED) across a wide range of valve platforms. Power draw 4.5W, insulation class H for high-temperature durability. Dielectric withstand tested to 500,000mV between coil winding and housing per IEC 60335. PA66 housing, IP65 with DIN 43650 Form A connector. Operating temperature up to 130°C at coil surface. A popular stocked item for valve rebuild kits and preventive maintenance programs across pneumatic control systems."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-013",
+    "product_name": "PX-25F Flush-Mount Proximity Switch",
+    "category": "unit_semantic_equivalent",
+    "sources": [
+      {
+        "source_id": "ST-013-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "PX-25F Manufacturer Datasheet Rev B",
+        "authority_tier": 1,
+        "retrieved_at": "2025-08-11",
+        "raw_text": "The PX-25F is a flush-mount inductive proximity switch for embedded sensing applications. Sensing distance is 2mm on mild steel targets. Housing length is 25.4mm with M18x1 threaded body, nickel-plated brass. Supply voltage 10-30VDC, output PNP normally open, 3-wire configuration. Ingress protection IP67. Switching frequency 500Hz. Operating temperature range -25°C to +70°C. Electrical connection via 2m PVC cable, pre-terminated. Short-circuit and reverse-polarity protected, with LED status indication. Certified CE and cULus. Suitable for embedded flush-mount applications in machine tool fixtures, tooling detection, and compact automation cells where housing length is a critical fit constraint."
+      },
+      {
+        "source_id": "ST-013-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "SensorSource PIM Listing",
+        "authority_tier": 2,
+        "retrieved_at": "2020-11-25",
+        "raw_text": "Proximity Switch PX-25F. Sensing range: 2mm. Housing length: 1 inch. Thread: M18x1, nickel-plated brass. Supply: 10-30VDC. Output: PNP, NO, 3-wire. IP67 rated. Switching frequency: 500Hz. Cable: 2m PVC, pre-terminated. Temperature range: -25°C to 70°C. Standard flush-mount sensor for embedded fixture applications. In stock, ships within 2 days. Frequently used in machine tool tooling detection and compact automation cell retrofits."
+      },
+      {
+        "source_id": "ST-013-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Sensor Catalog Page",
+        "authority_tier": 3,
+        "retrieved_at": "2023-04-09",
+        "raw_text": "PX-25F flush-mount proximity sensor — compact M18x1 inductive sensor with 25.4mm housing length, ideal for space-constrained embedded mounting. 2mm sensing range on steel targets. 10-30VDC supply, PNP NO output, IP67 sealed. 500Hz switching frequency. Pre-wired 2m PVC cable. Operating temperature -25°C to +70°C. A trusted choice for machine tool fixtures and tooling presence detection where flush-mount installation and precise housing length are essential for proper fit."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-014",
+    "product_name": "TB-450SS Stainless Spring-Clamp Terminal Block",
+    "category": "unit_semantic_equivalent",
+    "sources": [
+      {
+        "source_id": "ST-014-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "TB-450SS Manufacturer Datasheet Rev A",
+        "authority_tier": 1,
+        "retrieved_at": "2025-03-27",
+        "raw_text": "The TB-450SS is a spring-clamp terminal block assembly with stainless steel current-carrying components for corrosion-resistant applications. Rated voltage is 450V, rated current 32A, wire range 0.5-6mm². Contact material is stainless steel for durability in humid and washdown environments. Contact bounce/settling response time is 15ms under rated load switching. Housing material is PA66, self-extinguishing per UL94 V-0. Operating temperature range -40°C to +100°C. Mounting is via standard 35mm DIN rail (TS35). Marking strip compatible with standard terminal block labeling systems. Certified UL, CSA, and CE for use in industrial control panels and marine/offshore electrical enclosures."
+      },
+      {
+        "source_id": "ST-014-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "PanelParts PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2020-07-14",
+        "raw_text": "Terminal Block TB-450SS. Voltage: 450V. Current: 32A. Wire range: 0.5-6mm². Contact material: SS 304. Response time: 0.015s. Housing: PA66, UL94 V-0. Temperature range: -40°C to 100°C. DIN rail mount, 35mm (TS35). Certified UL, CSA, CE. Suitable for control panels requiring corrosion-resistant terminals. In stock, sold per unit or in DIN rail assembly kits. Popular for marine, offshore, and washdown panel applications requiring stainless hardware."
+      },
+      {
+        "source_id": "ST-014-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Terminal Block Catalog Page",
+        "authority_tier": 3,
+        "retrieved_at": "2022-05-02",
+        "raw_text": "TB-450SS terminal block — stainless steel spring-clamp terminal for corrosion-resistant industrial wiring. Rated 450V, 32A, accepts 0.5-6mm² conductors. Switching response time 15ms. PA66 self-extinguishing housing, UL94 V-0. Operating range -40°C to +100°C. Mounts on standard TS35 DIN rail. UL, CSA, CE certified. A reliable choice for marine, offshore, and washdown control panels where stainless steel terminal hardware resists corrosion far better than standard tin-plated copper alternatives."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-015",
+    "product_name": "FL-620 Turbine Flow Sensor",
+    "category": "stale_superseded_data",
+    "sources": [
+      {
+        "source_id": "ST-015-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "FL-620 Manufacturer Datasheet Rev C",
+        "authority_tier": 1,
+        "retrieved_at": "2025-11-02",
+        "raw_text": "The FL-620 turbine flow sensor measures liquid flow in pipelines from 5 to 100 L/min. Following a Rev C design update to the turbine rotor and pickup coil, measurement accuracy has been improved to ±1.0% of reading (previously ±2.0% in earlier revisions). Output signal is a pulse train, 0-10V amplitude, frequency proportional to flow rate. Supply voltage 12-24VDC. Process connection is 1-inch NPT female, body material 316 stainless steel. Operating temperature range 0°C to +80°C, maximum pressure 20 bar. Housing rated IP65. This Rev C sensor is a drop-in replacement for earlier revisions and is recommended for all new installations requiring improved measurement accuracy."
+      },
+      {
+        "source_id": "ST-015-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "FlowTech Distributors PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2020-01-08",
+        "raw_text": "Flow Sensor FL-620. Measuring range: 5-100 L/min. Accuracy: ±2.0% of reading. Output: pulse, 0-10V. Supply: 12-24VDC. Connection: 1 inch NPT female. Material: 316 stainless steel. Temperature: 0°C to 80°C. Max pressure: 20 bar. Housing: IP65. Standard turbine flow sensor for liquid flow measurement in process and hydraulic applications. In stock, ships within 1 week. Compatible with standard flow totalizer and PLC pulse-counting inputs."
+      },
+      {
+        "source_id": "ST-015-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Flow Instrumentation Page",
+        "authority_tier": 3,
+        "retrieved_at": "2022-11-14",
+        "raw_text": "FL-620 turbine flow sensor — measures liquid flow from 5 to 100 L/min with accuracy of ±1.5% of reading following a mid-life design revision to the rotor assembly. Pulse output, 0-10V, 12-24VDC supply. 1-inch NPT female connection, 316 stainless steel wetted parts. Operating temperature 0°C to +80°C, max pressure 20 bar. IP65 housing. A reliable sensor for process flow monitoring, widely used in cooling water circuits, chemical dosing skids, and hydraulic test benches."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-016",
+    "product_name": "PW-310 Adjustable Pressure Switch",
+    "category": "stale_superseded_data",
+    "sources": [
+      {
+        "source_id": "ST-016-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "PW-310 Manufacturer Datasheet Rev F",
+        "authority_tier": 1,
+        "retrieved_at": "2026-01-15",
+        "raw_text": "The PW-310 adjustable pressure switch has been updated to extend the adjustable switching range to 2-10 bar (previously 1-8 bar), enabling use across a broader range of hydraulic and pneumatic circuits following a diaphragm and spring redesign. Switch type is SPDT, rated 15A at 250VAC. Process connection is G1/4 male thread, wetted parts brass and NBR diaphragm. Differential (deadband) is fixed at 0.5 bar. Housing rated IP65, electrical connection via DIN 43650 connector. Operating temperature range -20°C to +100°C (media). Certified CE. This revised range is standard on all units manufactured from Q4 2025 onward; older units are limited to 1-8 bar."
+      },
+      {
+        "source_id": "ST-016-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "HydroSwitch Supply PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2019-08-21",
+        "raw_text": "Pressure Switch PW-310. Adjustable range: 1-8 bar. Switch type: SPDT, 15A @ 250VAC. Connection: G1/4 male. Material: brass body, NBR diaphragm. Differential: 0.5 bar fixed. Housing: IP65, DIN 43650 connector. Temperature: -20°C to 100°C. Standard adjustable pressure switch for hydraulic and pneumatic circuits. In stock, ships within 3-5 days. Popular for compressor cut-in/cut-out control and hydraulic system pressure protection applications."
+      },
+      {
+        "source_id": "ST-016-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Pressure Control Catalog Page",
+        "authority_tier": 3,
+        "retrieved_at": "2024-06-10",
+        "raw_text": "PW-310 adjustable pressure switch — reliable SPDT switch rated 15A at 250VAC for hydraulic and pneumatic pressure control. Adjustable range now extended to 2-10 bar following a recent diaphragm redesign, offering broader coverage than earlier production units. G1/4 male connection, brass body with NBR diaphragm. Fixed differential of 0.5 bar. IP65 housing, DIN 43650 connector. Operating temperature -20°C to +100°C. CE certified. A dependable switch for compressor control, hydraulic protection, and pump cut-off applications."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-017",
+    "product_name": "CG-2012 Nylon Cable Gland",
+    "category": "clean_control",
+    "sources": [
+      {
+        "source_id": "ST-017-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "CG-2012 Manufacturer Datasheet Rev A",
+        "authority_tier": 1,
+        "retrieved_at": "2025-01-09",
+        "raw_text": "The CG-2012 is a nylon cable gland for sealing cable entries into enclosures and junction boxes. Thread size is M20x1.5, material polyamide (PA66), UL94 V-2 flame rated. Clamping range is 6-12mm cable diameter. Ingress protection is IP68 (5 bar, 24 hours) when properly tightened with matching locknut. Operating temperature range -40°C to +100°C. Includes integral sealing ring and strain relief insert. Color is black, RAL 9005. Certified to IEC 62444 for cable gland sealing performance. Suitable for outdoor enclosures, junction boxes, and machine wiring applications requiring reliable environmental sealing without the weight of metallic glands."
+      },
+      {
+        "source_id": "ST-017-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "CableAccessories PIM Listing",
+        "authority_tier": 2,
+        "retrieved_at": "2020-03-15",
+        "raw_text": "Cable Gland CG-2012. Thread: M20x1.5. Material: PA66 nylon, UL94 V-2. Clamping range: 6-12mm. IP rating: IP68 (5 bar/24hr). Temperature range: -40°C to 100°C. Color: black. Certified IEC 62444. Standard nylon cable gland for junction box and enclosure wiring. In stock, sold individually or in bulk packs of 100. Widely used across food & beverage, water treatment, and general industrial enclosure applications."
+      },
+      {
+        "source_id": "ST-017-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Cable Accessories Page",
+        "authority_tier": 3,
+        "retrieved_at": "2022-07-27",
+        "raw_text": "CG-2012 nylon cable gland — M20x1.5 thread, black PA66 construction rated UL94 V-2. Clamps cables from 6mm to 12mm diameter with IP68 sealing performance (5 bar for 24 hours). Operating temperature -40°C to +100°C. Certified to IEC 62444. A dependable, lightweight sealing solution for junction boxes and control enclosures across food processing, water treatment, and general industrial wiring applications."
+      }
+    ]
+  },
+  {
+    "product_id": "ST-018",
+    "product_name": "TB-800P DIN Rail Power Terminal Block",
+    "category": "clean_control",
+    "sources": [
+      {
+        "source_id": "ST-018-MFR",
+        "source_type": "manufacturer_pdf",
+        "source_name": "TB-800P Manufacturer Datasheet Rev B",
+        "authority_tier": 1,
+        "retrieved_at": "2024-09-06",
+        "raw_text": "The TB-800P is a high-current power distribution terminal block for DIN rail mounting. Rated voltage is 800V, rated current 32A, accepting wire cross-sections from 2.5 to 16mm². Housing material is PA66, self-extinguishing per UL94 V-0. Mounting is via standard 35mm DIN rail (TS35). Terminal connection type is screw clamp. Operating temperature range -40°C to +100°C. Certified to UL 1059, CSA, and CE LVD. Suitable for main power distribution, feeder circuits, and motor control center wiring in industrial control panels requiring compact, high-current terminal blocks."
+      },
+      {
+        "source_id": "ST-018-PIM",
+        "source_type": "distributor_pim",
+        "source_name": "PanelSupply PIM Record",
+        "authority_tier": 2,
+        "retrieved_at": "2021-04-20",
+        "raw_text": "Terminal Block TB-800P. Voltage: 800V. Current: 32A. Wire range: 2.5-16mm². Housing: PA66, UL94 V-0. Mounting: 35mm DIN rail (TS35). Connection: screw clamp. Temperature: -40°C to 100°C. Certified UL 1059, CSA, CE. Standard high-current terminal block for power distribution panels. In stock, sold individually or in 50-unit trade packs. Commonly specified for motor control centers and main feeder wiring applications."
+      },
+      {
+        "source_id": "ST-018-WEB",
+        "source_type": "scraped_listing",
+        "source_name": "Archived Terminal Block Vendor Page",
+        "authority_tier": 3,
+        "retrieved_at": "2023-09-13",
+        "raw_text": "TB-800P DIN rail terminal block — rated 800V, 32A for high-current power distribution in industrial control panels. Accepts 2.5-16mm² conductors via screw clamp terminals. PA66 housing, UL94 V-0 flame rated. Mounts on standard 35mm TS35 DIN rail. Operating temperature -40°C to +100°C. Certified UL 1059, CSA, CE. A trusted terminal block for motor control centers, main feeders, and power distribution wiring across industrial control panel builds."
+      }
+    ]
+  }
+]
