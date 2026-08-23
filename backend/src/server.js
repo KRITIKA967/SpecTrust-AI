@@ -29,8 +29,8 @@ app.get('/', (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
-    console.log(`🚀 SpecTrust AI Backend server running at http://localhost:${PORT}`);
-    console.log(`📡 Health Check URL: http://localhost:${PORT}/api/health`);
-    console.log(`📦 Products API URL: http://localhost:${PORT}/api/products`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`SpecTrust AI Backend server running on port ${PORT}`);
+    console.log(`Health Check URL: /api/health`);
+    console.log(`Products API URL: /api/products`);
 });
