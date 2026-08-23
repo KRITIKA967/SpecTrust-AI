@@ -1,8 +1,24 @@
+// ============================================================
+// SpecTrust AI - Frontend API Client
+// ============================================================
+
+// IMPORTANT:
+// Frontend is deployed separately from the backend on Render.
+// Therefore API requests must explicitly point to the backend.
+//
+// Local development can still override this using:
+// VITE_API_URL=http://localhost:5000
+//
+// Production fallback:
+// https://spectrust-ai-backend.onrender.com
+// ============================================================
+
 const API_BASE =
+  import.meta.env.VITE_API_URL ||
   'https://spectrust-ai-backend.onrender.com';
 
 // ============================================================
-// Internal helpers
+// Internal Helpers
 // ============================================================
 
 function buildUrl(path) {
@@ -250,7 +266,7 @@ export async function analyzeProduct(id) {
 }
 
 // ============================================================
-// Fetch all product conflicts
+// Fetch All Product Conflicts
 // ============================================================
 
 export async function fetchAllProductConflicts() {
@@ -262,7 +278,9 @@ export async function fetchAllProductConflicts() {
       productsData?.products
     )
       ? productsData.products
-      : [];
+      : Array.isArray(productsData)
+        ? productsData
+        : [];
 
   if (!products.length) {
     return {
@@ -299,10 +317,12 @@ export async function fetchAllProductConflicts() {
                   product.id,
 
                 product_name:
-                  product.name,
+                  product.name ||
+                  product.product_name,
 
                 product_category:
-                  product.category,
+                  product.category ||
+                  product.product_category,
 
                 product_image:
                   product.image_url
@@ -369,13 +389,6 @@ export async function fetchGlobalConflictCenter() {
 
 // ============================================================
 // Human Review Queue
-//
-// Loads genuine conflicts and keeps only high-risk items.
-//
-// IMPORTANT:
-// This endpoint does NOT modify backend records.
-// Reviewer decisions in the current MVP are stored in
-// browser localStorage by ReviewQueue.jsx.
 // ============================================================
 
 export async function fetchReviewQueue() {
@@ -413,3 +426,9 @@ export async function fetchReviewQueue() {
     conflicts: reviewItems
   };
 }
+
+// ============================================================
+// Export API Base
+// ============================================================
+
+export { API_BASE };
